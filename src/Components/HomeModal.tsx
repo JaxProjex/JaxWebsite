@@ -4,31 +4,48 @@ import '../CSS/HomeModal.css';
 
 function HomeModal(props:any) {
 
-    function handleAttr() {
-        switch (props.attr) {
+
+    function handleTrait() {
+        switch (props.trait) {
             case 1:
-                return `atribute 11111111111111111`
+                return `trait Initiating Improvements: `
             case 2:
-                return `attribute 22222222222222222`
-            case 1:
-                return `atribute 3333333333333`
-            case 2:
-                return `attribute 444444444444`
+                return `trait Technological Innovation:`
+            case 3:
+                return `trait Team Problem Solving:`
+            case 4:
+                return `trait Cross-Organization Collaboration:`
+            case 5:
+                return `trait Technology Integration:`
+            case 6:
+                return `trait Leadership:`
             default:
                 return
         }
     }
 
-    function handleTrait() {
-        switch (props.trait) {
+    function handleAttr() {
+        switch (props.attr) {
             case 1:
-                return `trait 11111111111111111`
+                return `atribute HTML:`
             case 2:
-                return `trait 22222222222222222`
-            case 1:
-                return `trait 33333333`
-            case 2:
-                return `trait 444444444`
+                return `attribute CSS:`
+            case 3:
+                return `atribute React:`
+            case 4:
+                return `attribute Javascript:`
+            case 5:
+                return `atribute Typescript:`
+            case 6:
+                return `attribute SQL:`
+            case 7:
+                return `attribute Java:`
+            case 8:
+                return `attribute Android:`
+            case 9:
+                return `attribute Python:`
+            case 10:
+                return `attribute Bash:`
             default:
                 return
         }
@@ -37,13 +54,29 @@ function HomeModal(props:any) {
     function handleHobby() {
         switch (props.hobby) {
             case 1:
-                return `hobby 11111111111111111`
+                return `hobby Cloud Servers:`
             case 2:
-                return `hobby 22222222222222222`
+                return `hobby Home Lab:`
             case 3:
-                return `hobby 3333333333333333333`
+                return `hobby Electronics:`
             case 4:
-                return `hobby 444444444444444444`
+                return `hobby Automation:`
+            case 5:
+                return `hobby Photography:`
+            case 6:
+                return `hobby Fabrication:`
+            case 7:
+                return `hobby Surveillance:`
+            case 8:
+                return `hobby Red Teaming:`
+            case 9:
+                return `hobby MANET:`
+            case 10:
+                return `hobby TAK:`
+            case 11:
+                return `hobby SDRs:`
+            case 12:
+                return `hobby COTs:`
             default:
                 return
         }

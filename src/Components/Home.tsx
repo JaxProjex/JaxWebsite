@@ -18,7 +18,7 @@ function Home() {
     const navigate = useNavigate();
 
     function handleAttrArrow(num:number) {
-        if (num < 0 || num > 2) {
+        if (num < 0 || num > 1) {
             setAttr(0);
         } else {
             setAttr(num);
@@ -72,11 +72,9 @@ function Home() {
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
                         <div className={"home-attr-text"} onClick={() => handleModalTrait(1)}>Initiating Improvements</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(2)}>Illustrating Concepts</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalTrait(2)}>Technological Innovation</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(3)}>Innovating Solutions</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(4)}>Setting Goals</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalTrait(3)}>Team Problem Solving</div>
                         <div className={"home-attr-divider"}>...</div>
                         <div className={"home-attr-arrow"} onClick={() => {
                             handleTraitArrow(trait + 1)
@@ -89,14 +87,11 @@ function Home() {
                             handleTraitArrow(trait - 1)
                         }}> {`<`} </div>
                         <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(5)}>Improvising Action</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalTrait(4)}>Cross-Organization Collaboration</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(6)}>Student Always</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalTrait(5)}>Technology Integration</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(7)}>Coaching Team Members</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalTrait(8)}>Task Priority Scheduling</div>
-                        <div className={"home-attr-divider"}>...</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalTrait(6)}>Leadership</div>
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
                     </>
                     }
@@ -112,15 +107,17 @@ function Home() {
                     {attr === 0 &&
                     <>
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(1)}>AWS EC2</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(1)}>HTML</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(2)}>Azure</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(2)}>CSS</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(3)}>Linode</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(3)}>React</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(4)}>VirtualBox</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(4)}>Javascript</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(5)}>VMWare</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(5)}>Typescript</div>
+                        <div className={"home-attr-divider"}> -</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(6)}>SQL</div>
                         <div className={"home-attr-divider"}>...</div>
                         <div className={"home-attr-arrow"} onClick={() => {
                             handleAttrArrow(attr + 1)
@@ -134,41 +131,13 @@ function Home() {
                             handleAttrArrow(attr - 1)
                         }}> {`<`} </div>
                         <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(6)}>React</div>
-                        <div className={"home-attr-divider"}> -</div>
                         <div className={"home-attr-text"} onClick={() => handleModalAttr(7)}>Java</div>
                         <div className={"home-attr-divider"}> -</div>
                         <div className={"home-attr-text"} onClick={() => handleModalAttr(8)}>Android</div>
                         <div className={"home-attr-divider"}> -</div>
                         <div className={"home-attr-text"} onClick={() => handleModalAttr(9)}>Python</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(10)}>SQL</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(11)}>Bash</div>
-                        <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-arrow"} onClick={() => {
-                            handleAttrArrow(attr + 1)
-                        }}> {`>`} </div>
-                    </>
-                    }
-
-                    {attr === 2 &&
-                    <>
-                        <div className={"home-attr-arrow"} onClick={() => {
-                            handleAttrArrow(attr - 1)
-                        }}> {`<`} </div>
-                        <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(12)}>Javascript</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(13)}>Typescript</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(14)}>HTML</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(15)}>CSS</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(16)}>Node-Red</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalAttr(17)}>Docker</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalAttr(10)}>Bash</div>
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
                     </>
                     }
@@ -184,13 +153,13 @@ function Home() {
                     {hobby === 0 &&
                     <>
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
-                        <div className={"home-attr-text"} onClick={() => handleModalHobby(1)}>Programming</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(1)}>Cloud Servers</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalHobby(2)}>Electronics</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(2)}>Home Lab</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalHobby(3)}>Cloud Hosting Services</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(3)}>Electronics</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"} onClick={() => handleModalHobby(4)}>Server Clustering</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(4)}>Automation</div>
                         <div className={"home-attr-divider"}>...</div>
                         <div className={"home-attr-arrow"} onClick={() => {
                             handleHobbyArrow(hobby + 1)
@@ -204,13 +173,13 @@ function Home() {
                             handleHobbyArrow(hobby - 1)
                         }}> {`<`} </div>
                         <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-text"}>Scripting & Automation</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(5)}>Photography</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Software Integration</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(6)}>Fabrication</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Network Configuration</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(7)}>Surveillance</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Red Teaming</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(8)}>Red Teaming</div>
                         <div className={"home-attr-divider"}>...</div>
                         <div className={"home-attr-arrow"} onClick={() => {
                             handleHobbyArrow(hobby + 1)
@@ -224,15 +193,13 @@ function Home() {
                             handleHobbyArrow(hobby - 1)
                         }}> {`<`} </div>
                         <div className={"home-attr-divider"}>...</div>
-                        <div className={"home-attr-text"}>Mesh Network</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(9)}>MANET</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Signature Reduction</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(10)}>TAK</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Operational Planning</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(11)}>SDRs</div>
                         <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>TAK Solutions</div>
-                        <div className={"home-attr-divider"}> -</div>
-                        <div className={"home-attr-text"}>Something Else</div>
+                        <div className={"home-attr-text"} onClick={() => handleModalHobby(12)}>COTs</div>
                         <div className={"home-attr-arrow-disabled"}> {`|`} </div>
                     </>
                     }
