@@ -1,0 +1,13 @@
+.about-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#282828;
+    height: 65%;
+}
