@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JaxProjex/JaxWebsite.git/static/css/main.09161097.css",
-    "main.js": "/JaxProjex/JaxWebsite.git/static/js/main.621ed217.js",
-    "static/js/453.175a3223.chunk.js": "/JaxProjex/JaxWebsite.git/static/js/453.175a3223.chunk.js",
-    "index.html": "/JaxProjex/JaxWebsite.git/index.html",
-    "main.09161097.css.map": "/JaxProjex/JaxWebsite.git/static/css/main.09161097.css.map",
-    "main.621ed217.js.map": "/JaxProjex/JaxWebsite.git/static/js/main.621ed217.js.map",
-    "453.175a3223.chunk.js.map": "/JaxProjex/JaxWebsite.git/static/js/453.175a3223.chunk.js.map"
+    "main.css": "/JaxWebsite/static/css/main.09161097.css",
+    "main.js": "/JaxWebsite/static/js/main.728c3db4.js",
+    "static/js/453.175a3223.chunk.js": "/JaxWebsite/static/js/453.175a3223.chunk.js",
+    "index.html": "/JaxWebsite/index.html",
+    "main.09161097.css.map": "/JaxWebsite/static/css/main.09161097.css.map",
+    "main.728c3db4.js.map": "/JaxWebsite/static/js/main.728c3db4.js.map",
+    "453.175a3223.chunk.js.map": "/JaxWebsite/static/js/453.175a3223.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09161097.css",
-    "static/js/main.621ed217.js"
+    "static/js/main.728c3db4.js"
   ]
 }
