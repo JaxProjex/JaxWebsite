@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JaxProjex/JaxWebsite.git/static/css/main.09161097.css",
+    "main.js": "/JaxProjex/JaxWebsite.git/static/js/main.621ed217.js",
+    "static/js/453.175a3223.chunk.js": "/JaxProjex/JaxWebsite.git/static/js/453.175a3223.chunk.js",
+    "index.html": "/JaxProjex/JaxWebsite.git/index.html",
+    "main.09161097.css.map": "/JaxProjex/JaxWebsite.git/static/css/main.09161097.css.map",
+    "main.621ed217.js.map": "/JaxProjex/JaxWebsite.git/static/js/main.621ed217.js.map",
+    "453.175a3223.chunk.js.map": "/JaxProjex/JaxWebsite.git/static/js/453.175a3223.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09161097.css",
+    "static/js/main.621ed217.js"
+  ]
+}
