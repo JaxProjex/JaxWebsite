@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/Header.css';
-//SUB-ZERO ascii art font
+//SUB-ZERO & ANSI Regular ascii art font
 
 function Header(props:any) {
     return (
@@ -52,13 +52,24 @@ function Header(props:any) {
 
                 {props.title === "qa" &&
                 <pre className="ascii-art">
-                {`
+                     {`
  ______   ______     ______    
 /\\  ___\\ /\\  __ \\   /\\  __ \\   
 \\ \\  __\\ \\ \\  __ \\  \\ \\ \\/\\_\\  
  \\ \\_\\    \\ \\_\\ \\_\\  \\ \\___\\_\\ 
   \\/_/     \\/_/\\/_/   \\/___/_/
         `}
+
+                {/*props.title === "qa" &&
+                <pre className="ascii-art" style={{color:"#006699", textShadow:"0 0 0", animation:"none"}}>
+                    {`
+███████   █████     ██████  
+██       ██   ██   ██    ██ 
+█████    ███████   ██    ██ 
+██       ██   ██   ██ ▄▄ ██ 
+██       ██   ██    ██████  
+                       ▀▀   `*/}
+
             </pre>}
 
             </div>

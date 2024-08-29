@@ -118,7 +118,8 @@
 }
 
 .home-attr-text {
-    font-size: 12px;
+    font-size: 12.5px;
+    font-weight: lighter;
     margin: 0 4px;
     color: #f0fff8; /* almost white */
     text-shadow: 0 0 1px #80ffc0, 0 0 5px #00ff66, 0 0 15px #00ff66, 0 0 20px #00ff66;
