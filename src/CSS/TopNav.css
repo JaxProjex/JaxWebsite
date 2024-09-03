@@ -8,32 +8,30 @@
 
 .topnav-left {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-top: 1vh;
 }
 
 .topnav-left-text {
-    width: fit-content;
-    font-size: 12px;
+    font-size: min(10px, 2.5vw);
     font-weight: bolder;
     color: #f0fff8; /* almost white */
-    padding: 0 2px;
 }
 
 .topnav-right {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 1rem;
-    margin-top: .5rem;
+    margin-right: 0.5rem;
+    margin-top: 1vh;
 }
 
 .topnav-right-links {
     margin-left: 0.5rem;
-    width: 4rem;
-    font-size: 12px;
+    width: min(4rem,16vw);
+    font-size: 10px;
     color: #f0fff8; /* almost white */
     /*text-shadow: 0 0 1px #80ffc0, 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 15px #00ff66;*/
     text-align: center;
@@ -51,8 +49,8 @@
 }
 .topnav-right-links-selected {
     margin-left: 0.5rem;
-    width: 4rem;
-    font-size: 12px;
+    width: min(4rem,16vw);
+    font-size: 10px;
     color: dimgrey; /* almost white */
     /*text-shadow: 0 0 1px #80ffc0, 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 15px #00ff66;*/
     text-align: center;

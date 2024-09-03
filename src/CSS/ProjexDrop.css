@@ -1,0 +1,25 @@
+
+.projex-drop-container-reveal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projex-drop-container {
+    width: max(6rem, 16vw);
+    height: max(6rem, 16vh);
+    border: 1px solid #f0fff8;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projex-drop-text {
+    padding: 5px;
+    text-align: center;
+    color: #f0fff8;
+    font-size: 16px;
+    text-shadow: 0 0 1px #80ffc0, 0 0 5px #00ff66, 0 0 15px #00ff66, 0 0 20px #00ff66;
+}
