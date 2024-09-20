@@ -21,3 +21,9 @@
     animation: animateTitle 10s infinite;
     /*text-shadow: 0 0 3px #80ffc0, 0 0 9px #00ff66, 0 0 15px #00ff66, 0 0 21px #00ff66;*/
 }
+
+@media (max-width: 900px) {
+    .ascii-art {
+        font-size: min(0.7rem, 2.1vw);
+    }
+}
