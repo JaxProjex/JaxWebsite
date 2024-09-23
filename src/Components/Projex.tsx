@@ -20,7 +20,7 @@ function Projex() {
             <Header title={"projex"}/>
             <TopNav title={"projex"}/>
             <div className={"projex"}>
-                if (revealOpen === 0) { 
+                {revealOpen === 0 ? 
                 <div className={"projex-grid-container"}>
                     <ProjexDrop project={"Manifest Application"} onClick={() => handleClick(1)}/>
                     <ProjexDrop project={"Skyview-RPi"} onClick={() => handleClick(2)}/>
@@ -29,14 +29,14 @@ function Projex() {
                     <ProjexDrop project={"Node-Red TAK integrations"} onClick={() => handleClick(5)}/>
                     <ProjexDrop project={"Kismet ATAK Companion"} onClick={() => handleClick(6)}/>
                 </div>
-                } else {
+                :
                 <div className={"projex-display-container"}>
-                {revealOpen === 1 && <>hello</>}
-                {revealOpen === 2 && <>greetigs</>}
-                {revealOpen === 3 && <>hi</>}
-                {revealOpen === 4 && <>hola</>}
-                {revealOpen === 5 && <>aloha</>}
-                {revealOpen === 6 && <>hey</>}
+                {revealOpen === 1 && <p>hello</p>}
+                {revealOpen === 2 && <p>greetigs</p>}
+                {revealOpen === 3 && <p>hi</p>}
+                {revealOpen === 4 && <p>hola</p>}
+                {revealOpen === 5 && <p>aloha</p>}
+                {revealOpen === 6 && <p>hey</p>}
                 </div>
                 }
             </div>

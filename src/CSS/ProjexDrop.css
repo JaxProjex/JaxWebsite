@@ -30,10 +30,12 @@
 }
 
 .projex-drop-container-reveal:hover .projex-drop-text {
+    cursor:default;
     color: gray;
     text-shadow: 0 0 5px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 40px #00ff66;
 }
 .projex-drop-container:hover .projex-drop-text {
+    cursor:default;
     color: gray;
     text-shadow: 0 0 5px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 40px #00ff66;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/Header.css';
-//SUB-ZERO & ANSI Regular ascii art font
+//SUB-ZERO & ANSI Regular & slant relief... ascii art font
 
 function Header(props:any) {
     return (
